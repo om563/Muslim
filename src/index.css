@@ -1,0 +1,112 @@
+/* global attribute======================================> */
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+* {
+    font-family: 'Cairo', sans-serif;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+
+
+
+.borderMe {
+    border: red 1px solid;
+}
+
+a {
+    text-decoration: none !important;
+    color: initial !important;
+}
+
+ul {
+    list-style: none !important;
+}
+
+.cursorPointer {
+    cursor: pointer;
+
+}
+
+.light {
+    --bgColor: #f3f4f6;
+    --textColor1: #1f2937;
+    --textColor2: #65a30d;
+    --navColor: #e5e7eb;
+    transition: 1s all ease-in;
+}
+
+
+
+
+.dark {
+    transition: 1s all ease-in;
+    --bgColor: #09090b;
+    --textColor1: #d1d5db;
+    --textColor2: #4d7c0f;
+    --navColor: #18181b;
+
+}
+
+/* =======================================================> */
+
+.borderMe {
+    border: 3px solid red;
+}
+
+.listOfName {
+    min-width: 300px;
+}
+
+.listOfName button {
+    all: unset;
+    border: 2px var(--textColor2) solid;
+    border-radius: 5px;
+    padding: 8px 10px;
+    color: white;
+
+}
+
+.listOfName .listContent {
+    top: 105% !important;
+    background-color: white;
+    height: fit-content !important;
+}
+
+.listOfName .listContent .rewayahName {
+    height: fit-content !important;
+}
+
+.listOfName .listContent .names {
+    height: 150px;
+    overflow-y: auto;
+}
+
+.listOfName .listContent input {
+    border: 1px var(--textColor2) solid !important;
+    all: unset;
+    background-color: white;
+    padding: 5px 8px;
+    border-radius: 5px;
+
+}
+
+.hiddenListContent .hiddenNames {
+    border: none !important;
+    overflow: hidden !important;
+    display: flex !important;
+    justify-content: center !important;
+    height: fit-content !important;
+
+
+}
+
+
+
+
+/* =======================================================> */

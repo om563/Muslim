@@ -1,0 +1,103 @@
+.alsalah {
+    background-color: var(--bgColor);
+    padding-top: 121px;
+    transition: .3s all ease-in;
+    color: var(--textColor1) !important;
+    padding-bottom: 162px;
+    min-height: 100vh;
+}
+
+.alsalah .allCitys {
+    height: 150px;
+    overflow-y: auto;
+}
+
+.alsalah input {
+    all: unset;
+    border: 1px solid var(--textColor2) !important;
+    width: 150px;
+    background-color: var(--navColor);
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: var(--textColor1) !important;
+    transition: .3s all ease-in;
+}
+
+.alsalah input::placeholder {
+    color: var(--textColor1) !important;
+}
+
+
+
+
+.alsalah .AlsalahCart>div {
+    background-color: var(--navColor);
+    border-radius: 5px;
+    cursor: pointer;
+    border: var(--textColor2) 1px solid;
+}
+
+.alsalah .AlsalahCart {
+    width: 90%;
+    margin: auto;
+}
+
+
+.alsalah .AlsalahCart .cart {
+    width: 240px;
+    transition: .3s transform, .3s box-shadow !important;
+}
+
+.AlsalahCart .cart img {
+    transition: .3s transform, .3s opacity;
+    opacity: .9;
+
+}
+
+.AlsalahCart .cart img:hover {
+    transform: scale(1.1);
+    opacity: 1;
+
+}
+
+.alsalah .AlsalahCart .cart:hover {
+    box-shadow: 0px 0px 8px var(--textColor2) !important;
+    transform: rotate(1deg);
+}
+
+.light .alsalah .AlsalahCart .cart:hover {
+    box-shadow: 0px 0px 15px var(--textColor2) !important;
+}
+
+.alsalah .AlsalahCart>div .img {
+    height: 100px !important;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    overflow: hidden;
+}
+
+
+.alsalah {
+    color: var(--textColor1) !important;
+}
+
+.alsalah .chooseTheCity {
+    margin-top: 40px;
+}
+
+.alsalah .listOfName>button {
+    background-color: var(--navColor);
+    border: 2px solid var(--textColor2);
+    color: var(--textColor1) !important;
+}
+
+.alsalah input{
+    color: black !important;
+}
+
+@media(max-width:775px) {
+
+    .alsalah .inputSearch {
+        margin-bottom: 60px !important;
+    }
+}

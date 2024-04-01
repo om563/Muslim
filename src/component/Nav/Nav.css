@@ -1,0 +1,100 @@
+nav {
+
+    background-color: var(--navColor);
+    transition: .3s all ease-in;
+}
+
+
+
+
+nav .switcher {
+    width: 24px;
+    aspect-ratio: 1/1;
+    background-color: var(--textColor2);
+    border-radius: 50%;
+    position: absolute;
+    height: 24px;
+    
+   
+
+}
+
+
+nav .themeIcon {
+    border: 1px solid var(--mainColor);
+    border-radius: 30px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    background-color: white;
+    display: flex;
+    border: solid 1px var(--textColor2);
+    height: fit-content;
+    width: 50px;
+   
+}
+
+ul a {
+    color: var(--textColor1) !important;
+    padding-right: 40px;
+}
+
+.hiddenNav ul a {
+    padding: 15px 0px !important;
+}
+
+
+nav .languageAndTheme h6 {
+    color: var(--textColor1) !important;
+}
+
+.dark nav .theme {
+    background-color: #cbd5e1 !important;
+    border: 1px solid var(--textColor2);
+}
+
+nav .theme {
+    border: 1px solid var(--textColor2);
+}
+
+nav .logo {
+    color: var(--textColor1) !important;
+}
+
+
+
+/* modal style=============================================> */
+.NavModal .modal-content {
+    background-color: var(--bgColor) !important;
+}
+
+.NavModal .modal-header,
+.NavModal .logo,
+nav .menu {
+    color: var(--textColor1) !important;
+}
+
+.NavModal .modalMainContent a {
+    color: var(--textColor1);
+    padding-top: 30px;
+}
+
+.active {
+    color: var(--textColor2) !important;
+    transition: .3s ease-in color;
+}
+
+
+
+/* responsive============================================> */
+@media(max-width:775px) {
+
+    nav .navItem {
+        display: none !important;
+    }
+
+    nav .menu {
+        display: flex !important;
+    }
+}

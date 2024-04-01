@@ -1,0 +1,39 @@
+.radio {
+    height: 100vh;
+    background-color: var(--bgColor);
+    background-image: url('../../Assets/Images/radiobackgroud.avif');
+    background-size: cover;
+    background-position: center;
+}
+
+.radio .radioMainContent h2 {
+    color: white;
+}
+
+
+.radio .dropdown button {
+    background-color: inherit !important;
+    border: 2px solid var(--textColor2);
+}
+
+@media(max-width:400px) {
+    .radio .listOfName button {
+        font-size: 16px !important;
+
+    }
+}
+
+.radio .dropdown input {
+
+    border: 1px solid var(--textColor2);
+}
+
+.radio .dropdown input:focus {
+    box-shadow: none !important;
+
+}
+
+.radio .dropdown .radioNames {
+    height: 200px !important;
+    overflow-y: auto !important;
+}

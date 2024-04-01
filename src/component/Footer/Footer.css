@@ -1,0 +1,32 @@
+footer {
+    width: 100%;
+    min-height: 80px;
+    background-color: var(--navColor) !important;
+    transition: .3s all ease-in;
+    color: var(--textColor1);
+    padding: 0px 100px;
+
+}
+
+footer .fa-whatsapp {
+    color: var(--textColor2);
+}
+
+@media(max-width:775px) {
+    footer {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+}
+
+@media(max-width:400px) {
+    footer h4{
+        font-size: 16px;
+    }
+}
+
+@media(max-width:300px) {
+    footer h4{
+        font-size: 14px;
+    }
+}

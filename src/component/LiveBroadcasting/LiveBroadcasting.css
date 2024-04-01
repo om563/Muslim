@@ -1,0 +1,53 @@
+.liveBroadcasting {
+    background-color: var(--bgColor);
+    padding: 30px 0px;
+ 
+    transition: .3s all ease-in;
+
+}
+
+.liveBroadcasting>h3 {
+    color: var(--textColor1);
+}
+
+.liveBroadcasting .channels>button {
+    color: var(--textColor1);
+    border: 1px solid var(--textColor2);
+    border-radius: 10px;
+    padding: 6px 15px;
+    background-color: var(--navColor);
+    font-size: 18px;
+    transition: .2s ease-in transform;
+    transition: .3s all ease-in;
+
+}
+
+.liveBroadcasting .channels>button:hover {
+    transform: translateY(1px);
+}
+
+/* responsive==================================> */
+@media(max-width:880px) {
+    .liveBroadcasting .video>div {
+        width: 90% !important;
+        height: 300px !important;
+    }
+
+
+}
+
+@media(max-width:400px) {
+    .liveBroadcasting .channels {
+        display: flex;
+        flex-direction: column !important;
+        height: 100px !important;
+        align-items: center;
+        justify-content: space-between !important;
+
+    }
+
+    .liveBroadcasting .channels>button {
+        width: 60%;
+    }
+
+}

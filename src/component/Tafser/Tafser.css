@@ -1,0 +1,60 @@
+.tafser {
+    background-color: var(--bgColor);
+    height: 100vh;
+    padding-top: 150px;
+    background-image: url("../../Assets/Images/tafser2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.tafser h2 {
+    color: white;
+}
+
+
+.tafser .tafserContent h3 {
+    color: white;
+}
+
+.tafser .dropdown>button {
+    background-color: inherit;
+    border: var(--textColor2) 2px solid;
+}
+
+.tafser .dropdown ul input {
+    border: var(--textColor2) 1px solid;
+    border-radius: 5px;
+}
+
+.tafser .tafserDropdownHidden {
+    height: auto !important;
+}
+
+.tafser .dropdown ul input:focus {
+    box-shadow: none !important;
+}
+
+.tafser .dropdown .allSuarhs,
+.tafser .surahTafser {
+    overflow-y: auto;
+    height: 150px;
+
+}
+
+@media(max-width:655px) {
+    .tafser .tafserContent {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .tafser .tafserContent .aya {
+        margin: 40px 0px !important;
+    }
+}
+
+@media(max-width:400px) {
+    .tafser .listOfName button {
+        font-size: 16px !important;
+
+    }
+}
